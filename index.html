@@ -12,27 +12,32 @@
     ></script>
   </head>
   <body>
-    <section class="primera-seccion">
-      <div class="caja-adicion">
-        <h1>Lista de tareas</h1>
-        
+    <div class="seccion-principal">
+      <section class="primera-seccion">
+        <div class="caja-adicion">
+          <h1>Lista de tareas</h1>
 
-        <form action="" class="form-añadir">
-          <div class="input-container">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input
-              type="text"
-              class="input-texto"
-              placeholder="Ingrese el texto"
-            />
-            <button class="boton-añadir">Agregar</button>
-          </div>
-        </form>
-      </div>
-    </section>
-    <ul class="lista-tareas"></ul>
+          <form action="" class="form-añadir">
+            <div class="input-container">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                class="input-texto"
+                placeholder="Ingrese el texto"
+              />
+              <button class="boton-añadir">Agregar</button>
+            </div>
+          </form>
+        </div>
 
-    <button class="borrar-todo">Borrar Tareas</button>
-    <script src="index.js"></script>
+        <div class="parte-final">
+        <ul class="lista-tareas"></ul>
+
+      <button class="borrar-todo">Borrar Tareas</button>
+    </div>
+      </section>
+      
+      <script src="index.js"></script>
+    </div>
   </body>
 </html>
